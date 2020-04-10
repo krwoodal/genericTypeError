@@ -15,7 +15,6 @@
 		5D338CB82440BAC2000A1DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D338CB72440BAC2000A1DCE /* Assets.xcassets */; };
 		5D338CBB2440BAC2000A1DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D338CB92440BAC2000A1DCE /* LaunchScreen.storyboard */; };
 		5D338CC62440BAC3000A1DCE /* GenericTypeErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CC52440BAC3000A1DCE /* GenericTypeErrorTests.swift */; };
-		5D338CD32440BD43000A1DCE /* RealmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CD22440BD43000A1DCE /* RealmUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		5D338CC72440BAC3000A1DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D338CD02440BD43000A1DCE /* GenericTypeError-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericTypeError-Bridging-Header.h"; sourceTree = "<group>"; };
 		5D338CD12440BD43000A1DCE /* RealmUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmUtility.h; sourceTree = "<group>"; };
-		5D338CD22440BD43000A1DCE /* RealmUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmUtility.m; sourceTree = "<group>"; };
 		7C5EA5BD2379A8DDFEE0CB31 /* Pods-GenericTypeError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericTypeError.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericTypeError/Pods-GenericTypeError.release.xcconfig"; sourceTree = "<group>"; };
 		DC47E00F330FE1E3CA764B6E /* Pods_GenericTypeError.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericTypeError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,7 +92,6 @@
 				5D338CB02440BAC0000A1DCE /* SceneDelegate.swift */,
 				5D338CB22440BAC0000A1DCE /* ViewController.swift */,
 				5D338CD12440BD43000A1DCE /* RealmUtility.h */,
-				5D338CD22440BD43000A1DCE /* RealmUtility.m */,
 				5D338CB42440BAC0000A1DCE /* Main.storyboard */,
 				5D338CB72440BAC2000A1DCE /* Assets.xcassets */,
 				5D338CB92440BAC2000A1DCE /* LaunchScreen.storyboard */,
@@ -283,7 +280,6 @@
 			files = (
 				5D338CB32440BAC0000A1DCE /* ViewController.swift in Sources */,
 				5D338CAF2440BAC0000A1DCE /* AppDelegate.swift in Sources */,
-				5D338CD32440BD43000A1DCE /* RealmUtility.m in Sources */,
 				5D338CB12440BAC0000A1DCE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
