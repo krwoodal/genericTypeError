@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111A6FD3E297ADC00EE196D7 /* Pods_GenericTypeError.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC47E00F330FE1E3CA764B6E /* Pods_GenericTypeError.framework */; };
 		5D338CAF2440BAC0000A1DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CAE2440BAC0000A1DCE /* AppDelegate.swift */; };
 		5D338CB12440BAC0000A1DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CB02440BAC0000A1DCE /* SceneDelegate.swift */; };
 		5D338CB32440BAC0000A1DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CB22440BAC0000A1DCE /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		5D338CB82440BAC2000A1DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D338CB72440BAC2000A1DCE /* Assets.xcassets */; };
 		5D338CBB2440BAC2000A1DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D338CB92440BAC2000A1DCE /* LaunchScreen.storyboard */; };
 		5D338CC62440BAC3000A1DCE /* GenericTypeErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CC52440BAC3000A1DCE /* GenericTypeErrorTests.swift */; };
+		5D338CD32440BD43000A1DCE /* RealmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D338CD22440BD43000A1DCE /* RealmUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BBC25E83A82CBD7FDE0DF45 /* Pods-GenericTypeError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericTypeError.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericTypeError/Pods-GenericTypeError.debug.xcconfig"; sourceTree = "<group>"; };
 		5D338CAB2440BAC0000A1DCE /* GenericTypeError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericTypeError.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D338CAE2440BAC0000A1DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D338CB02440BAC0000A1DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		5D338CC12440BAC2000A1DCE /* GenericTypeErrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericTypeErrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D338CC52440BAC3000A1DCE /* GenericTypeErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypeErrorTests.swift; sourceTree = "<group>"; };
 		5D338CC72440BAC3000A1DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D338CD02440BD43000A1DCE /* GenericTypeError-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericTypeError-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D338CD12440BD43000A1DCE /* RealmUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmUtility.h; sourceTree = "<group>"; };
+		5D338CD22440BD43000A1DCE /* RealmUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmUtility.m; sourceTree = "<group>"; };
+		7C5EA5BD2379A8DDFEE0CB31 /* Pods-GenericTypeError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericTypeError.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericTypeError/Pods-GenericTypeError.release.xcconfig"; sourceTree = "<group>"; };
+		DC47E00F330FE1E3CA764B6E /* Pods_GenericTypeError.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericTypeError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111A6FD3E297ADC00EE196D7 /* Pods_GenericTypeError.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,8 @@
 				5D338CAD2440BAC0000A1DCE /* GenericTypeError */,
 				5D338CC42440BAC3000A1DCE /* GenericTypeErrorTests */,
 				5D338CAC2440BAC0000A1DCE /* Products */,
+				B61F4D2C3859534E4F9B48C7 /* Pods */,
+				66B4985AEB82F53EFC41F281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,10 +93,13 @@
 				5D338CAE2440BAC0000A1DCE /* AppDelegate.swift */,
 				5D338CB02440BAC0000A1DCE /* SceneDelegate.swift */,
 				5D338CB22440BAC0000A1DCE /* ViewController.swift */,
+				5D338CD12440BD43000A1DCE /* RealmUtility.h */,
+				5D338CD22440BD43000A1DCE /* RealmUtility.m */,
 				5D338CB42440BAC0000A1DCE /* Main.storyboard */,
 				5D338CB72440BAC2000A1DCE /* Assets.xcassets */,
 				5D338CB92440BAC2000A1DCE /* LaunchScreen.storyboard */,
 				5D338CBC2440BAC2000A1DCE /* Info.plist */,
+				5D338CD02440BD43000A1DCE /* GenericTypeError-Bridging-Header.h */,
 			);
 			path = GenericTypeError;
 			sourceTree = "<group>";
@@ -99,6 +113,23 @@
 			path = GenericTypeErrorTests;
 			sourceTree = "<group>";
 		};
+		66B4985AEB82F53EFC41F281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC47E00F330FE1E3CA764B6E /* Pods_GenericTypeError.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61F4D2C3859534E4F9B48C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC25E83A82CBD7FDE0DF45 /* Pods-GenericTypeError.debug.xcconfig */,
+				7C5EA5BD2379A8DDFEE0CB31 /* Pods-GenericTypeError.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D338CCA2440BAC3000A1DCE /* Build configuration list for PBXNativeTarget "GenericTypeError" */;
 			buildPhases = (
+				4E9689E070EA0EEED63716DF /* [CP] Check Pods Manifest.lock */,
 				5D338CA72440BAC0000A1DCE /* Sources */,
 				5D338CA82440BAC0000A1DCE /* Frameworks */,
 				5D338CA92440BAC0000A1DCE /* Resources */,
+				2F9232713B86409512EF4038 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +182,7 @@
 				TargetAttributes = {
 					5D338CAA2440BAC0000A1DCE = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					5D338CC02440BAC2000A1DCE = {
 						CreatedOnToolsVersion = 11.4;
@@ -195,6 +229,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F9232713B86409512EF4038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GenericTypeError/Pods-GenericTypeError-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericTypeError/Pods-GenericTypeError-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9689E070EA0EEED63716DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenericTypeError-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D338CA72440BAC0000A1DCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,6 +283,7 @@
 			files = (
 				5D338CB32440BAC0000A1DCE /* ViewController.swift in Sources */,
 				5D338CAF2440BAC0000A1DCE /* AppDelegate.swift in Sources */,
+				5D338CD32440BD43000A1DCE /* RealmUtility.m in Sources */,
 				5D338CB12440BAC0000A1DCE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,8 +442,10 @@
 		};
 		5D338CCB2440BAC3000A1DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBC25E83A82CBD7FDE0DF45 /* Pods-GenericTypeError.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = US2W432RHC;
 				INFOPLIST_FILE = GenericTypeError/Info.plist;
@@ -371,6 +455,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.remind.GenericTypeError;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GenericTypeError/GenericTypeError-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,8 +464,10 @@
 		};
 		5D338CCC2440BAC3000A1DCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5EA5BD2379A8DDFEE0CB31 /* Pods-GenericTypeError.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = US2W432RHC;
 				INFOPLIST_FILE = GenericTypeError/Info.plist;
@@ -389,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.remind.GenericTypeError;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GenericTypeError/GenericTypeError-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

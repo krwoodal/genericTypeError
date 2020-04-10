@@ -7,7 +7,25 @@
 		<key>GenericTypeError.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<key>GenericTypeError_Release.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5D338CAA2440BAC0000A1DCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D338CC02440BAC2000A1DCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
